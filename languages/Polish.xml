@@ -10,7 +10,7 @@
 		<listColumnSensorValue>Wartość</listColumnSensorValue>
 		<listSeparatorDrives>Dysk HDD:</listSeparatorDrives>
 		<popupMenuItemControl>Zmiana regulacji...</popupMenuItemControl>
-		<popupMenuItemReset>Przywróć automatyczną kontrole</popupMenuItemReset>
+		<popupMenuItemReset>Przywróć automatyczną kontrolę</popupMenuItemReset>
 		<fanControlAutomatic>Auto</fanControlAutomatic>
 		<fanControlAutomaticInfo>Automatyczna (kontrolowana przez system)</fanControlAutomaticInfo>
 		<fanControlConstant>Wartość stała %1 obr/min</fanControlConstant>
@@ -27,13 +27,13 @@
 		<messageFanControlMessage>Aby kontrolować wentylatory Macs Fan Control wymaga by ustalić wyższe uprawnienia dla jego narzędzia pomocniczego.</messageFanControlMessage>
 		<messageFanControlNotAvailableTitle>Sterowanie wentylatorem niedostępne.</messageFanControlNotAvailableTitle>
 		<messageFanControlNotAvailable>Macs Fan Control nie mógł połączyć się z aplikacją pomocniczą, w celu umożliwienia kontroli wentylatora jak również dostosowania prędkości.\n\nUpewnij się, aby wprowadzić 		hasło administratora, kiedy jesteś o nie pytany.\nAby uzyskać więcej informacji, prosimy o kontakt pod adresem \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+		<messageNoFansDetected>Nie wykryto wentylatorów w tym komputerze</messageNoFansDetected>
 	</MainWindow>
 	<FanControlDialog>
 		<title>Regulacja wentylatora %1</title>
 		<radioConstant>Wartość stała obr/min</radioConstant>
 		<radioSensor>Ustaw wartości na podstawie</radioSensor>
-		<staticIncrease>Temperatura przy, której prędkość \nwentylatora zacznie wzrastać:</staticIncrease>
+		<staticIncrease>Temperatura, przy której prędkość \nwentylatora zacznie wzrastać:</staticIncrease>
 		<staticMax>Maksymalna temperatura:</staticMax>
 		<statusWarning>Coś jest nie tak - min/max wartość wentylatorów jest taka sama (%1).&lt;br/&gt; Proszę odinstalować inne oprogramowanie do kontroli wentylatorów oraz dokonać resetu SMC.</statusWarning>
 	</FanControlDialog>
@@ -97,7 +97,7 @@
 	<core>
 		<UpdateChecker>
 			<ReleasedOn>Wydany %1</ReleasedOn>
-			<CheckForUpdates>Sprawdź aktualizację...</CheckForUpdates>
+			<CheckForUpdates>Sprawdź aktualizacje...</CheckForUpdates>
 			<NewVersionAvailable>Nowa wersja %1 jest dostępna!</NewVersionAvailable>
 			<NewVersionAvailableText>%1 %2 jest już dostępna - obecnie posiadasz %3. Czy chcesz ją teraz pobrać?</NewVersionAvailableText>
 			<UpdateAlertTitle>Aktualizacja oprogramowania</UpdateAlertTitle>
@@ -105,7 +105,7 @@
 			<UpdateAlertRemindLater>Przypomnij mi później</UpdateAlertRemindLater>
 			<UpdateAlertSkip>Przejdź do wersji</UpdateAlertSkip>
 			<UpdateAlertInstall>Instaluj aktualizację</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Sprawdź aktualizację automatycznie</UpdateAlertAutomaticUpdates>
+			<UpdateAlertAutomaticUpdates>Sprawdź aktualizacje automatycznie</UpdateAlertAutomaticUpdates>
 			<MessageNoUpdateAvailable>Brak dostępnych aktualizacji!</MessageNoUpdateAvailable>
 			<MessageNoUpdateAvailableDescription>%1 %2 jest obecnie najnowszą dostępną wersją.</MessageNoUpdateAvailableDescription>
 			<MessageErrorConnect>Wystąpił błąd podczas pobierania aktualizacji. Proszę spróbuj ponownie później.</MessageErrorConnect>
@@ -133,20 +133,20 @@
 			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Dzięki temu unikniesz bałaganu w folderze Pobrane rzeczy.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 		</LetsMoveMac>
 		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
+			<actionUndo>Cofnij</actionUndo>
+			<actionRedo>Przyrwóć</actionRedo>
+			<actionCut>Wytnij</actionCut>
+			<actionCopy>Kopiuj</actionCopy>
+			<actionPaste>Wklej</actionPaste>
+			<actionDelete>Skasuj</actionDelete>
+			<actionSelectAll>Zaznacz wszystko</actionSelectAll>
 		</QLineEditEx>
 		<QMessageBoxEx>
 			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
+			<buttonCancel>Anuluj</buttonCancel>
+			<buttonClose>Zamknij</buttonClose>
+			<buttonYes>Tak</buttonYes>
+			<buttonNo>Nie</buttonNo>
 		</QMessageBoxEx>
 	</core>
 </LanguageStrings>
